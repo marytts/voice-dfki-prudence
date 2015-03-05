@@ -1,7 +1,9 @@
 voice {
     name = 'dfki-prudence'
-    language = 'en'
-    region = 'GB'
+    locale {
+        language = 'en'
+        country = 'GB'
+    }
     gender = 'female'
     type = 'unit selection'
     description = 'A female British English expressive unit selection voice: Pragmatic Prudence'
