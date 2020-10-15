@@ -126,10 +126,3 @@ basenames {
     include '*'
     exclude 'w0068', "w0235"
 }
-
-generateVoiceConfig {
-    config.putAll([
-            targetCostWeights: "jar:/marytts/voice/$marytts.voice.nameCamelCase/customTargetCostWeights.txt",
-            joinCostWeights  : "jar:/marytts/voice/$marytts.voice.nameCamelCase/customJoinCostWeights.txt",
-    ])
-}
